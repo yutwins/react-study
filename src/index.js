@@ -11,4 +11,10 @@ const nameArry = ["田中", "中村", "勇斗"];
 // });
 // console.log(nameArry2);
 
-nameArry.map((name) => console.log(name));
+// nameArry.map((name) => console.log(name));
+
+const numArry = [1, 2, 3, 4, 5];
+const newNumArry = numArry.filter((num) => {
+  return num % 2 === 1;
+});
+console.log(newNumArry);
